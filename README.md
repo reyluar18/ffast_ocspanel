@@ -34,11 +34,11 @@ apt-get update && apt-get -y install mysql-server
 
 mysql_secure_installation
 
- ¡´ N
- ¡´ Y
- ¡´ Y
- ¡´ Y
- ¡´ Y
+ `N`
+ ` Y`
+ ` Y`
+`Y`
+ ` Y`
 
 chown -R mysql:mysql /var/lib/mysql/ && chmod -R 755 /var/lib/mysql/
 
